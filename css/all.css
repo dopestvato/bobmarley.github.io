@@ -1,0 +1,35 @@
+.widget_contaner {
+    right: 0px;
+    position: fixed;
+    bottom: 30px;
+    z-index: 99999999999999;
+}
+.widget_header {
+    background-color: #3fa757;
+    width: 240px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    font-family:'Open Sans', sans-serif;
+    border-radius: 5px;
+}
+.widget_body {
+    width: 240px;
+    height: 150px;
+}
+.large_video {
+    height: 100%;
+    width: 100%;
+}
+.mini_video {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    bottom: 32px;
+    right: 4px;
+    opacity: 0.75;
+}
